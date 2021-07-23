@@ -1,22 +1,17 @@
-? "1. name"
-: "A workflow for my Hello World file"
-? "10.	   with"
-: ~
-? "11.          MY_NAME"
-: SKY
-? "2. on"
-: push
-? "3. jobs"
-: ~
-? "4.   build"
-: ~
-? "5.     name"
-: "Hello world action"
-? "6.     runs-on"
-: ubuntu-latest
-? "7.     steps"
-: ~
-? "8.	 - uses"
-: actions/checkout@v1
-? "9.       - uses"
-: ./action-a
+	jobs:	
+	  
+    build:
+	
+	    name: Hello world action
+	
+	    runs-on: ubuntu-latest
+	
+	    steps:
+	
+        - uses: actions/checkout@v1
+	
+	      - uses: ./action-a	
+        
+          with:	
+          
+            MY_NAME: "Mona"
