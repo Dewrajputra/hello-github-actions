@@ -2,7 +2,7 @@ on:
   push:
 jobs:	
 
-  build:
+  my_job:
 	
     name: Hello world action
 	
