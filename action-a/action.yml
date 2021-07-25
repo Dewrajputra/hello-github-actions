@@ -1,0 +1,32 @@
+1.	name: "Hello Actions"
+2.	
+3.	description: "Greet someone"
+4.	
+5.	author: "octocat@github.com"
+6.	
+7.	
+8.	
+9.	inputs:
+10.	
+11.	  MY_NAME:
+12.	
+13.	    description: "Who to greet"
+14.	
+15.	    required: true
+16.	
+17.	    default: "World"
+18.	
+19.	
+20.	
+21.	runs:
+22.	
+23.	  using: "docker"
+24.	
+25.	  image: "Dockerfile"
+26.	
+27.	
+28.	
+29.	branding:
+30.	
+31.	icon: "mic"
+32.	color: "purple"
